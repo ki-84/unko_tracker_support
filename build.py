@@ -66,7 +66,7 @@ LANGS["ja"] = dict(
         ]),
         ("その他", [
             ("対応言語は？",
-             "日本語・英語・スペイン語・フランス語・ドイツ語・ポルトガル語（ブラジル）・簡体字中国語・韓国語。端末の言語に従うか、設定で選べます。収録文献の日本語以外の版は要点の翻訳です。"),
+             "日本語・英語・スペイン語・フランス語・ドイツ語・ポルトガル語（ブラジル）・簡体字中国語・繁体字中国語・韓国語・イタリア語・ロシア語・トルコ語・ベトナム語・タイ語の14言語。端末の言語に従うか、設定で選べます。収録文献の日本語以外の版は要点の翻訳です。"),
             ("不具合を見つけた",
              "再現手順を添えて、下のフォームから知らせてください。アプリの設定 → 「お問い合わせ」から開くと、機種と iOS のバージョンは自動で入ります。"),
         ]),
@@ -151,7 +151,7 @@ LANGS["en"] = dict(
         ]),
         ("Other", [
             ("Which languages are supported?",
-             "Japanese, English, Spanish, French, German, Portuguese (Brazil), Simplified Chinese and Korean. The app follows the device language or a choice made in Settings. Non-Japanese versions of the research cards are summaries of the key points."),
+             "Fourteen: Japanese, English, Spanish, French, German, Portuguese (Brazil), Simplified and Traditional Chinese, Korean, Italian, Russian, Turkish, Vietnamese and Thai. The app follows the device language or a choice made in Settings. Non-Japanese versions of the research cards are summaries of the key points."),
             ("I found a bug",
              "Please use the form below with the steps to reproduce it. Opening the form from Settings → \"Contact\" in the app fills in your device model and iOS version."),
         ]),
@@ -236,7 +236,7 @@ LANGS["es"] = dict(
         ]),
         ("Otros", [
             ("¿Qué idiomas admite?",
-             "Japonés, inglés, español, francés, alemán, portugués (Brasil), chino simplificado y coreano. La app sigue el idioma del dispositivo o el que elijas en Ajustes. Las versiones de las fichas de estudios en idiomas distintos del japonés son resúmenes de los puntos clave."),
+             "Catorce: japonés, inglés, español, francés, alemán, portugués (Brasil), chino simplificado y tradicional, coreano, italiano, ruso, turco, vietnamita y tailandés. La app sigue el idioma del dispositivo o el que elijas en Ajustes. Las versiones de las fichas de estudios en idiomas distintos del japonés son resúmenes de los puntos clave."),
             ("He encontrado un error",
              "Usa el formulario de abajo e incluye los pasos para reproducirlo. Si abres el formulario desde Ajustes → «Contacto» en la app, el modelo de dispositivo y la versión de iOS se rellenan solos."),
         ]),
@@ -321,7 +321,7 @@ LANGS["fr"] = dict(
         ]),
         ("Autres", [
             ("Quelles langues sont prises en charge ?",
-             "Japonais, anglais, espagnol, français, allemand, portugais (Brésil), chinois simplifié et coréen. L'app suit la langue de l'appareil ou celle choisie dans les Réglages. Les fiches d'études dans les langues autres que le japonais sont des résumés des points clés."),
+             "Quatorze : japonais, anglais, espagnol, français, allemand, portugais (Brésil), chinois simplifié et traditionnel, coréen, italien, russe, turc, vietnamien et thaï. L'app suit la langue de l'appareil ou celle choisie dans les Réglages. Les fiches d'études dans les langues autres que le japonais sont des résumés des points clés."),
             ("J'ai trouvé un bug",
              "Utilisez le formulaire ci-dessous en indiquant les étapes pour le reproduire. En ouvrant le formulaire depuis Réglages → « Contact » dans l'app, le modèle d'appareil et la version d'iOS sont remplis automatiquement."),
         ]),
@@ -406,7 +406,7 @@ LANGS["de"] = dict(
         ]),
         ("Sonstiges", [
             ("Welche Sprachen werden unterstützt?",
-             "Japanisch, Englisch, Spanisch, Französisch, Deutsch, Portugiesisch (Brasilien), vereinfachtes Chinesisch und Koreanisch. Die App folgt der Gerätesprache oder der Auswahl in den Einstellungen. Die Studienkarten in anderen Sprachen als Japanisch sind Zusammenfassungen der Kernpunkte."),
+             "Vierzehn: Japanisch, Englisch, Spanisch, Französisch, Deutsch, Portugiesisch (Brasilien), vereinfachtes und traditionelles Chinesisch, Koreanisch, Italienisch, Russisch, Türkisch, Vietnamesisch und Thai. Die App folgt der Gerätesprache oder der Auswahl in den Einstellungen. Die Studienkarten in anderen Sprachen als Japanisch sind Zusammenfassungen der Kernpunkte."),
             ("Ich habe einen Fehler gefunden",
              "Nutze bitte das Formular unten und beschreibe die Schritte, mit denen er sich reproduzieren lässt. Öffnest du das Formular über Einstellungen → „Kontakt“ in der App, werden Gerätemodell und iOS-Version automatisch eingetragen."),
         ]),
@@ -491,7 +491,7 @@ LANGS["pt-BR"] = dict(
         ]),
         ("Outros", [
             ("Quais idiomas são suportados?",
-             "Japonês, inglês, espanhol, francês, alemão, português (Brasil), chinês simplificado e coreano. O app segue o idioma do aparelho ou a escolha feita nos Ajustes. As fichas de estudos em idiomas que não o japonês são resumos dos pontos principais."),
+             "Catorze: japonês, inglês, espanhol, francês, alemão, português (Brasil), chinês simplificado e tradicional, coreano, italiano, russo, turco, vietnamita e tailandês. O app segue o idioma do aparelho ou a escolha feita nos Ajustes. As fichas de estudos em idiomas que não o japonês são resumos dos pontos principais."),
             ("Encontrei um erro",
              "Use o formulário abaixo com os passos para reproduzi-lo. Ao abrir o formulário por Ajustes → «Contato» no app, o modelo do aparelho e a versão do iOS são preenchidos automaticamente."),
         ]),
@@ -576,7 +576,7 @@ LANGS["zh-Hans"] = dict(
         ]),
         ("其他", [
             ("支持哪些语言？",
-             "日语、英语、西班牙语、法语、德语、葡萄牙语（巴西）、简体中文和韩语。应用会跟随设备语言，也可以在设置中选择。日语以外版本的文献卡片是要点摘要。"),
+             "共14种：日语、英语、西班牙语、法语、德语、葡萄牙语（巴西）、简体中文、繁体中文、韩语、意大利语、俄语、土耳其语、越南语和泰语。应用会跟随设备语言，也可以在设置中选择。日语以外版本的文献卡片是要点摘要。"),
             ("我发现了问题",
              "请通过下面的表单告诉我们，并附上重现步骤。从应用的设置 → 「联系我们」打开表单时，机型和 iOS 版本会自动填入。"),
         ]),
@@ -661,7 +661,7 @@ LANGS["ko"] = dict(
         ]),
         ("기타", [
             ("지원 언어는 무엇인가요?",
-             "일본어·영어·스페인어·프랑스어·독일어·포르투갈어(브라질)·중국어 간체·한국어입니다. 기기 언어를 따르거나 설정에서 고를 수 있습니다. 일본어 이외의 문헌 카드는 요점을 번역한 것입니다."),
+             "일본어·영어·스페인어·프랑스어·독일어·포르투갈어(브라질)·중국어 간체·중국어 번체·한국어·이탈리아어·러시아어·튀르키예어·베트남어·태국어의 14개 언어입니다. 기기 언어를 따르거나 설정에서 고를 수 있습니다. 일본어 이외의 문헌 카드는 요점을 번역한 것입니다."),
             ("오류를 발견했어요",
              "재현 절차를 적어 아래 양식으로 알려 주세요. 앱의 설정 → 「문의하기」에서 열면 기종과 iOS 버전이 자동으로 들어갑니다."),
         ]),
