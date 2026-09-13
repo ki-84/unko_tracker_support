@@ -1,1 +1,5 @@
 blank_issues_enabled: false
+contact_links:
+  - name: UNKO LAB Contact
+    url: https://docs.google.com/forms/d/e/1FAIpQLSe3w0xD6LzK3mYLEYjBdabHse9kcyP7LgYntcwPfgEZ3PbEjw/viewform
+    about: Bug reports, feature requests and questions go through this form.

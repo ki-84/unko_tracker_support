@@ -119,11 +119,11 @@
   <p class="q">対応言語は？</p>
   <p class="a">日本語・英語・スペイン語・フランス語・ドイツ語・ポルトガル語（ブラジル）・簡体字中国語・韓国語。端末の言語に従うか、設定で選べます。収録文献の日本語以外の版は要点の翻訳です。</p>
   <p class="q">不具合を見つけた</p>
-  <p class="a">機種・iOS のバージョン・再現手順を添えて、下のフォームから知らせてください。</p>
+  <p class="a">再現手順を添えて、下のフォームから知らせてください。アプリの設定 → 「お問い合わせ」から開くと、機種と iOS のバージョンは自動で入ります。</p>
 
   <h3>問い合わせ</h3>
-  <p>GitHub の Issue として受け付けます（英語のフォームですが、日本語で書いて構いません）。GitHub アカウントが必要で、内容は公開されます。返信には数日いただくことがあります。</p>
-  <a class="cta" href="https://github.com/ki-84/unko_tracker_support/issues/new?template=contact.yml" target="_blank" rel="noopener">問い合わせを送る（GitHub）</a>
+  <p>Google フォームで受け付けます（英語のフォームですが、日本語で書いて構いません）。アプリの設定の「お問い合わせ」から開くと、機種と iOS のバージョンが自動で入ります。返信には数日いただくことがあります。</p>
+  <a class="cta" href="https://docs.google.com/forms/d/e/1FAIpQLSe3w0xD6LzK3mYLEYjBdabHse9kcyP7LgYntcwPfgEZ3PbEjw/viewform" target="_blank" rel="noopener">問い合わせフォームを開く</a>
 </section>
 
 <section class="card" id="privacy" data-ja>
@@ -185,8 +185,8 @@
   <p>内容を変えるときは、このページを更新し、最終更新日を改めます。</p>
 
   <h3>問い合わせ</h3>
-  <p>このポリシーについての質問は、サポートと同じフォームから受け付けます。内容は公開されるので、個人情報は書かないでください。</p>
-  <a class="cta" href="https://github.com/ki-84/unko_tracker_support/issues/new?template=contact.yml" target="_blank" rel="noopener">問い合わせを送る（GitHub）</a>
+  <p>このポリシーについての質問は、サポートと同じフォームから受け付けます。フォームは Google フォームで、入力内容は Google に保存され、開発者が読みます。メールアドレスは、返信を希望するときだけ書いてください。</p>
+  <a class="cta" href="https://docs.google.com/forms/d/e/1FAIpQLSe3w0xD6LzK3mYLEYjBdabHse9kcyP7LgYntcwPfgEZ3PbEjw/viewform" target="_blank" rel="noopener">問い合わせフォームを開く</a>
 </section>
 
 <!-- ============================ English ============================ -->
@@ -229,11 +229,11 @@
   <p class="q">Which languages are supported?</p>
   <p class="a">Japanese, English, Spanish, French, German, Portuguese (Brazil), Simplified Chinese and Korean. The app follows the device language or a choice made in Settings. Non-Japanese versions of the research cards are summaries of the key points.</p>
   <p class="q">I found a bug</p>
-  <p class="a">Please use the form below and include your device model, iOS version and the steps to reproduce it.</p>
+  <p class="a">Please use the form below with the steps to reproduce it. Opening the form from Settings → "Contact" in the app fills in your device model and iOS version.</p>
 
   <h3>Contact</h3>
-  <p>Requests are received as GitHub issues. A GitHub account is needed and the content is public. Replies may take a few days.</p>
-  <a class="cta" href="https://github.com/ki-84/unko_tracker_support/issues/new?template=contact.yml" target="_blank" rel="noopener">Open the contact form (GitHub)</a>
+  <p>Requests are received through a Google Form. Opening it from "Contact" in the app's Settings fills in your device and iOS version. Replies may take a few days.</p>
+  <a class="cta" href="https://docs.google.com/forms/d/e/1FAIpQLSe3w0xD6LzK3mYLEYjBdabHse9kcyP7LgYntcwPfgEZ3PbEjw/viewform" target="_blank" rel="noopener">Open the contact form</a>
 </section>
 
 <section class="card" id="privacy-en" data-en hidden>
@@ -295,8 +295,8 @@
   <p>Changes will be posted on this page with an updated "Last updated" date.</p>
 
   <h3>Contact</h3>
-  <p>Questions about this policy can be sent through the same contact form used for support. Issues are public, so please leave out personal information.</p>
-  <a class="cta" href="https://github.com/ki-84/unko_tracker_support/issues/new?template=contact.yml" target="_blank" rel="noopener">Open the contact form (GitHub)</a>
+  <p>Questions about this policy can be sent through the same contact form used for support. The form is a Google Form: what you enter is stored by Google and read by the developer. Give an email address only if you want a reply.</p>
+  <a class="cta" href="https://docs.google.com/forms/d/e/1FAIpQLSe3w0xD6LzK3mYLEYjBdabHse9kcyP7LgYntcwPfgEZ3PbEjw/viewform" target="_blank" rel="noopener">Open the contact form</a>
 </section>
 
 </main>
@@ -323,6 +323,12 @@
     else wanted = (navigator.language || '').toLowerCase().indexOf('ja') === 0 ? 'ja' : 'en';
   }
   show(wanted);
+  var ua = (navigator.userAgent || '').match(/iPhone OS (\d+)_(\d+)/);
+  if (ua) {
+    document.querySelectorAll('a.cta').forEach(function (a) {
+      a.href += '?usp=pp_url&entry.1959946652=' + encodeURIComponent('iPhone / iOS ' + ua[1] + '.' + ua[2]);
+    });
+  }
   if (location.hash) { var t = document.querySelector(location.hash); if (t) t.scrollIntoView(); }
 })();
 </script>
