@@ -1,0 +1,36 @@
+name: Contact
+description: Bug reports, feature requests and questions about UNKO LAB
+title: "[Contact] "
+labels: [contact]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for getting in touch. Replies may take a few days.
+
+        Issues here are public, so leave out anything you would not want others to read. Please do not paste your bowel records — for a bug, the steps to reproduce are enough.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Bug report
+        - Feature request
+        - Purchase or restore
+        - Ads or privacy
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: For a bug, what you did and what happened. For a request, when it would help and what it should do.
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and iOS version
+      description: Optional. Leave blank for a feature request.
+      placeholder: iPhone 15 / iOS 18.6
