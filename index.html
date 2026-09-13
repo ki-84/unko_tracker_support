@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UNKO LAB — サポート・プライバシーポリシー / Support &amp; Privacy</title>
+<meta name="description" content="UNKO LAB（うんこ博士の観察ノート）のサポートとプライバシーポリシー。Support and privacy policy for UNKO LAB, a bowel-movement diary for iPhone.">
+<style>
+  :root {
+    --bg: #f6f2ea;
+    --surface: #ffffff;
+    --surface-2: #ece6d8;
+    --ink: #1f2a27;
+    --ink-dim: #5d6a66;
+    --accent: #1f615a;
+    --line: rgba(31,42,39,0.14);
+    --shadow: 0 1px 2px rgba(31,42,39,0.06), 0 8px 24px rgba(31,42,39,0.05);
+    --radius: 14px;
+    --font-body: -apple-system, "Hiragino Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #151a19; --surface: #1d2422; --surface-2: #26302d;
+      --ink: #e9ece8; --ink-dim: #9fada8; --accent: #7fc4b8;
+      --line: rgba(233,236,232,0.12);
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 10px 30px rgba(0,0,0,0.35);
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font-body); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+  a { color: var(--accent); }
+  header.hero { max-width: 720px; margin: 0 auto; padding: 48px 24px 24px; }
+  .eyebrow { font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; font-weight: 700; }
+  h1 { font-size: clamp(26px, 5vw, 36px); margin: 0 0 10px; letter-spacing: -0.01em; }
+  .lead { color: var(--ink-dim); margin: 0 0 18px; }
+  nav.jump { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 14px; }
+  .lang { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; margin: 14px 0 0; }
+  .lang button { border: 0; background: transparent; color: var(--ink); padding: 6px 14px; font: inherit; font-size: 14px; cursor: pointer; }
+  .lang button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+  main { max-width: 720px; margin: 0 auto; padding: 0 24px 64px; }
+  section.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 26px; margin-bottom: 22px; }
+  section.card .tag { font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); font-weight: 700; margin-bottom: 4px; }
+  section.card h2 { margin: 0 0 12px; font-size: 22px; }
+  section.card h3 { margin: 22px 0 8px; font-size: 16px; }
+  section.card p { margin: 0 0 12px; }
+  section.card ul { margin: 0 0 12px; padding-left: 1.2em; }
+  section.card li { margin-bottom: 6px; }
+  .q { font-weight: 700; margin-bottom: 2px; }
+  .a { color: var(--ink-dim); }
+  .note { background: var(--surface-2); border-radius: 10px; padding: 12px 14px; font-size: 14px; }
+  .cta { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; padding: 10px 18px; border-radius: 999px; font-weight: 700; }
+  .meta { font-size: 13px; color: var(--ink-dim); }
+  footer.foot { max-width: 720px; margin: 0 auto; padding: 0 24px 40px; font-size: 13px; color: var(--ink-dim); }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="eyebrow">UNKO LAB</div>
+  <h1 data-ja>サポート・プライバシーポリシー</h1>
+  <h1 data-en hidden>Support &amp; Privacy Policy</h1>
+  <p class="lead" data-ja>うんこ博士と一緒につける、iPhone向けの排便観察ノートです。</p>
+  <p class="lead" data-en hidden>A bowel-movement diary for iPhone, kept together with the Poop Professor.</p>
+  <nav class="jump" data-ja>
+    <a href="#support">サポート</a>
+    <a href="#privacy">プライバシーポリシー</a>
+  </nav>
+  <nav class="jump" data-en hidden>
+    <a href="#support-en">Support</a>
+    <a href="#privacy-en">Privacy Policy</a>
+  </nav>
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-lang="ja" aria-pressed="true">日本語</button>
+    <button type="button" data-lang="en" aria-pressed="false">English</button>
+  </div>
+</header>
+
+<main>
+
+<!-- ============================ 日本語 ============================ -->
+<section class="card" id="support" data-ja>
+  <div class="tag">Support</div>
+  <h2>サポート</h2>
+  <p>よくある質問をまとめました。ここにない場合は、いちばん下のフォームから連絡してください。</p>
+
+  <h3>アプリについて</h3>
+  <p class="q">UNKO LAB は何をするアプリ？</p>
+  <p class="a">排便の形（ブリストルスケール）・色・量・症状・メモを記録し、月カレンダーやふり返りで眺めるための観察ノートです。博士のキャラクターが、記録の傾向と、その根拠になる研究・公的資料を紹介します。記録したぶんだけ「ぷにぷに・うんこタワー」が高くなります。</p>
+  <p class="q">医療アプリですか？</p>
+  <p class="a">いいえ。UNKO LAB は観察と学習のためのアプリで、診断・治療・薬の判断はしません。博士の「見立て」は記録の傾向を言葉にしたもので、医療者の判断の代わりにはなりません。血便・黒色便・発熱を伴う下痢・強い腹痛・体重減少などがあるときは、医療機関を受診してください。緊急のときは各地域の救急番号へ。</p>
+  <p class="q">「出なかった日」はどう扱われる？</p>
+  <p class="a">記録のない日は、入力なしで自動的に「出なかった日」として扱われます。あとから記録を足せば、その日の記録に変わります。</p>
+
+  <h3>データ</h3>
+  <p class="q">記録はどこに保存される？</p>
+  <p class="a">お使いの iPhone の中だけです。アカウントは不要で、開発者のサーバーへは送信しません。iOS のバックアップ設定によっては、iCloud や端末のバックアップに含まれます。</p>
+  <p class="q">記録を書き出したい</p>
+  <p class="a">設定 → 記録の持ち出し → 「CSVを共有」で、全項目を CSV ファイルとして共有できます（Pro の機能です）。共有操作をしたときだけ、選んだ相手やアプリへ記録が渡ります。</p>
+  <p class="q">記録を消したい</p>
+  <p class="a">設定 → 「すべての記録を削除」で端末内の記録を消せます。アプリを削除しても消えます。開発者側には記録がないため、削除の依頼は不要です。</p>
+
+  <h3>UNKO LAB Pro（買い切り）</h3>
+  <p class="q">Pro で何が変わる？</p>
+  <p class="a">広告なし、タワーの積み上げが10倍、全項目の CSV 書き出し、収録文献をすべて読める、の4つです。一度だけのお支払いで、自動更新はありません。記録・月カレンダー・博士の見立てと出典・受診案内は、これからも無料です。</p>
+  <p class="q">機種変更したら Pro が消えた</p>
+  <p class="a">同じ Apple アカウントでサインインし、設定 → UNKO LAB Pro → 「購入を復元」を押してください。購入は Apple が管理しているので、再購入は不要です。</p>
+  <p class="q">返金したい</p>
+  <p class="a">App Store の購入はすべて Apple が処理します。<a href="https://support.apple.com/ja-jp/118223" target="_blank" rel="noopener">Apple の返金申請ページ</a>から手続きしてください。</p>
+
+  <h3>広告</h3>
+  <p class="q">広告はどこに出る？</p>
+  <p class="a">無料版では、ホーム下部にバナー広告が1つ出ます。記録の入力画面や受診案内を遮る広告はありません。Pro では広告を読み込みません。</p>
+  <p class="q">広告の設定を変えたい</p>
+  <p class="a">同意の確認が必要な地域では、設定に「広告のプライバシー設定」が表示され、いつでも変更できます。</p>
+
+  <h3>その他</h3>
+  <p class="q">対応言語は？</p>
+  <p class="a">日本語・英語・スペイン語・フランス語・ドイツ語・ポルトガル語（ブラジル）・簡体字中国語・韓国語。端末の言語に従うか、設定で選べます。収録文献の日本語以外の版は要点の翻訳です。</p>
+  <p class="q">不具合を見つけた</p>
+  <p class="a">機種・iOS のバージョン・再現手順を添えて、下のフォームから知らせてください。</p>
+
+  <h3>問い合わせ</h3>
+  <p>返信には数日いただくことがあります。</p>
+  <a class="cta" href="https://docs.google.com/forms/d/e/1FAIpQLScWJMd7fVogErdmOV7sT0a3bYcG32_oTbLcS82iA59dsJfWkQ/viewform?usp=publish-editor" target="_blank" rel="noopener">問い合わせフォームを開く</a>
+</section>
+
+<section class="card" id="privacy" data-ja>
+  <div class="tag">Privacy Policy</div>
+  <h2>プライバシーポリシー</h2>
+  <p class="meta">最終更新日：2026年9月13日</p>
+  <p>このポリシーは、iPhone アプリ「UNKO LAB」（以下「本アプリ」）がどんなデータを扱い、どう使うかを説明します。本アプリは個人の開発者（GitHub: ki-84）が開発・公開しています。</p>
+
+  <h3>要点</h3>
+  <ul>
+    <li>アカウントは不要で、開発者のサーバーはありません。記録は端末の中だけに保存されます。</li>
+    <li>開発者は、あなたの記録を受け取りません。見ることもできません。</li>
+    <li>無料版の広告は非パーソナライズで、排便の記録を広告会社に渡すことはありません。</li>
+    <li>本アプリはユーザーのトラッキングを行いません。</li>
+  </ul>
+
+  <h3>端末に保存されるデータ</h3>
+  <p>本アプリは、あなたが入力した次の情報を端末内に保存します。</p>
+  <ul>
+    <li>排便の記録：日時、形（ブリストルスケール）、色、量、血・腹痛・いきみ・切迫感・残便感・粘液・夜間の排便、所要時間、24時間以内の下剤、発熱・嘔吐・脱水感・ガス・体重減少の有無、食事・薬のメモ、タグ、自由記述</li>
+    <li>アプリの設定：表示言語、タワーの進み具合など</li>
+  </ul>
+  <p>これらは開発者に送信されません。iOS のバックアップ設定に応じて、iCloud バックアップや端末のバックアップに含まれることがあります。バックアップの扱いは Apple のポリシーに従います。</p>
+
+  <h3>共有</h3>
+  <p>設定の「CSVを共有」など、あなたが共有操作をしたときだけ、選んだ相手やアプリへ記録が渡ります。共有先での取り扱いは、その相手やアプリのポリシーに従います。</p>
+
+  <h3>購入</h3>
+  <p>UNKO LAB Pro の購入は Apple の App Store が処理します。本アプリが受け取るのは「購入済みかどうか」の情報だけで、氏名・支払い情報は受け取りません。詳しくは <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple のプライバシーポリシー</a>をご覧ください。</p>
+
+  <h3>広告（無料版）</h3>
+  <p>無料版はホーム画面下部に、Google の Mobile Ads SDK（AdMob）によるバナー広告を表示します。</p>
+  <ul>
+    <li>広告リクエストはすべて非パーソナライズ（<code>npa=1</code>）に設定しています。App Tracking Transparency のトラッキング許可は求めません。</li>
+    <li>広告 SDK は、広告の配信・計測・不正防止のために、端末の情報（機種、OS のバージョン、IP アドレス、IP から推定されるおおまかな地域、広告の表示・タップ）を Google に送ることがあります。</li>
+    <li>EEA・英国・スイスなど同意の確認が必要な地域では、Google の User Messaging Platform で同意を確認します。設定の「広告のプライバシー設定」からいつでも変更できます。</li>
+    <li>広告の機能は排便の記録に触れない設計で、記録の内容や博士への質問を広告会社に渡すことはありません。</li>
+    <li>Pro では広告を読み込みません。</li>
+  </ul>
+  <p>Google のデータの取り扱いについては、<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google のプライバシーポリシー</a>と<a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google のサービスを使用するサイトやアプリから収集した情報の Google での使用</a>をご覧ください。</p>
+
+  <h3>健康に関する情報の扱い</h3>
+  <p>排便の記録は健康に関わる情報です。本アプリはこれを端末内の記録・表示・ふり返りにだけ使い、広告や第三者への提供には使いません。Apple の HealthKit には接続しません。本アプリの内容は医療上の助言ではなく、診断・治療の代わりにはなりません。</p>
+
+  <h3>外部リンク</h3>
+  <p>収録文献の「原文・論文を開く」などのリンクは、お使いのブラウザで外部サイトを開きます。リンク先での取り扱いは、各サイトのポリシーに従います。</p>
+
+  <h3>子どものプライバシー</h3>
+  <p>本アプリは13歳未満の子どもを対象にしていません。子どもから個人情報を意図的に集めることはありません。</p>
+
+  <h3>あなたにできること</h3>
+  <ul>
+    <li>記録の削除：設定 → 「すべての記録を削除」、またはアプリの削除</li>
+    <li>広告の同意の変更：設定 → 「広告のプライバシー設定」（表示される地域のみ）</li>
+    <li>記録の持ち出し：設定 → 記録の持ち出し → 「CSVを共有」（Pro）</li>
+  </ul>
+
+  <h3>ポリシーの変更</h3>
+  <p>内容を変えるときは、このページを更新し、最終更新日を改めます。</p>
+
+  <h3>問い合わせ</h3>
+  <p>このポリシーについての質問は、サポートと同じフォームから受け付けます。</p>
+  <a class="cta" href="https://docs.google.com/forms/d/e/1FAIpQLScWJMd7fVogErdmOV7sT0a3bYcG32_oTbLcS82iA59dsJfWkQ/viewform?usp=publish-editor" target="_blank" rel="noopener">問い合わせフォームを開く</a>
+</section>
+
+<!-- ============================ English ============================ -->
+<section class="card" id="support-en" data-en hidden>
+  <div class="tag">Support</div>
+  <h2>Support</h2>
+  <p>Answers to common questions. If yours isn't here, use the contact form at the bottom.</p>
+
+  <h3>About the app</h3>
+  <p class="q">What does UNKO LAB do?</p>
+  <p class="a">It is an observation diary for bowel movements: shape (Bristol scale), colour, amount, symptoms and notes, viewed on a monthly calendar and in a weekly review. The Professor character points out patterns in your log and the research or public-health sources behind them. Every entry raises your "Squishy Poop Tower".</p>
+  <p class="q">Is it a medical app?</p>
+  <p class="a">No. UNKO LAB is for observation and learning. It does not diagnose, treat or make decisions about medication. The Professor's readings put a pattern in your log into words; they are not a substitute for a clinician. If you notice blood or black stools, diarrhoea with fever, severe abdominal pain or weight loss, please see a healthcare professional. In an emergency, call your local emergency number.</p>
+  <p class="q">How are days without a bowel movement handled?</p>
+  <p class="a">A day with no entry is automatically treated as a day without a movement — nothing to enter. Adding an entry later turns it into a recorded day.</p>
+
+  <h3>Your data</h3>
+  <p class="q">Where is my log stored?</p>
+  <p class="a">Only on your iPhone. There is no account and nothing is sent to a server run by the developer. Depending on your iOS settings, the data may be included in iCloud or device backups.</p>
+  <p class="q">Can I export my log?</p>
+  <p class="a">Settings → Export records → "Share CSV" exports every field as a CSV file (a Pro feature). Your records leave the device only when you share them, and only to the app or person you choose.</p>
+  <p class="q">How do I delete my data?</p>
+  <p class="a">Settings → "Delete all records" erases the log on the device. Deleting the app does the same. The developer holds no copy, so there is nothing to request.</p>
+
+  <h3>UNKO LAB Pro (one-time purchase)</h3>
+  <p class="q">What does Pro include?</p>
+  <p class="a">Four things: no ads, a tower that grows 10× faster, full-detail CSV export, and the complete research library. It is a single payment with no automatic renewal. Logging, the monthly calendar, the Professor's readings with their sources and consultation guidance stay free.</p>
+  <p class="q">I switched phones and lost Pro</p>
+  <p class="a">Sign in with the same Apple account, then open Settings → UNKO LAB Pro → "Restore purchases". Apple keeps the purchase, so you never pay twice.</p>
+  <p class="q">I want a refund</p>
+  <p class="a">All App Store purchases are handled by Apple. Please use <a href="https://support.apple.com/118223" target="_blank" rel="noopener">Apple's refund request page</a>.</p>
+
+  <h3>Ads</h3>
+  <p class="q">Where do ads appear?</p>
+  <p class="a">The free version shows one banner at the bottom of the Home tab. No ad ever covers the entry form or consultation guidance. Pro does not load ads.</p>
+  <p class="q">Can I change my ad choices?</p>
+  <p class="a">In regions where consent is required, Settings shows "Ad privacy choices", which you can change at any time.</p>
+
+  <h3>Other</h3>
+  <p class="q">Which languages are supported?</p>
+  <p class="a">Japanese, English, Spanish, French, German, Portuguese (Brazil), Simplified Chinese and Korean. The app follows the device language or a choice made in Settings. Non-Japanese versions of the research cards are summaries of the key points.</p>
+  <p class="q">I found a bug</p>
+  <p class="a">Please use the form below and include your device model, iOS version and the steps to reproduce it.</p>
+
+  <h3>Contact</h3>
+  <p>Replies may take a few days.</p>
+  <a class="cta" href="https://docs.google.com/forms/d/e/1FAIpQLScWJMd7fVogErdmOV7sT0a3bYcG32_oTbLcS82iA59dsJfWkQ/viewform?usp=publish-editor" target="_blank" rel="noopener">Open the contact form</a>
+</section>
+
+<section class="card" id="privacy-en" data-en hidden>
+  <div class="tag">Privacy Policy</div>
+  <h2>Privacy Policy</h2>
+  <p class="meta">Last updated: 13 September 2026</p>
+  <p>This policy explains what data the iPhone app "UNKO LAB" (the "app") handles and how it is used. The app is developed and published by an independent developer (GitHub: ki-84).</p>
+
+  <h3>In short</h3>
+  <ul>
+    <li>No account, and no server run by the developer. Your log lives only on your device.</li>
+    <li>The developer never receives your records and cannot see them.</li>
+    <li>Ads in the free version are non-personalised, and your bowel log is never passed to advertisers.</li>
+    <li>The app does not track you.</li>
+  </ul>
+
+  <h3>Data stored on your device</h3>
+  <p>The app stores the following information that you enter, on the device only:</p>
+  <ul>
+    <li>Bowel-movement records: date and time, shape (Bristol scale), colour, amount, blood, abdominal pain, straining, urgency, incomplete evacuation, mucus, night-time movements, time spent, laxative use in the last 24 hours, fever, vomiting, dehydration, gas, weight loss, notes on food and medicine, tags and free text</li>
+    <li>App settings: display language, tower progress and similar</li>
+  </ul>
+  <p>None of this is sent to the developer. Depending on your iOS settings it may be included in iCloud or device backups, which are governed by Apple's policies.</p>
+
+  <h3>Sharing</h3>
+  <p>Your records leave the device only when you use a share action such as "Share CSV" in Settings, and only to the app or person you choose. Their handling of the data is governed by that recipient's policies.</p>
+
+  <h3>Purchases</h3>
+  <p>UNKO LAB Pro is sold through Apple's App Store. The app receives only whether the purchase is active — never your name or payment details. See <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's privacy policy</a>.</p>
+
+  <h3>Advertising (free version)</h3>
+  <p>The free version shows a banner at the bottom of the Home tab using Google's Mobile Ads SDK (AdMob).</p>
+  <ul>
+    <li>Every ad request is configured as non-personalised (<code>npa=1</code>). The app does not ask for App Tracking Transparency permission.</li>
+    <li>To deliver, measure and protect ads, the SDK may send device information to Google — device model, OS version, IP address, an approximate region derived from the IP address, and ad impressions and taps.</li>
+    <li>In the EEA, the UK, Switzerland and other regions where consent is required, consent is collected through Google's User Messaging Platform. You can change it at any time via "Ad privacy choices" in Settings.</li>
+    <li>The advertising code has no access to your bowel records. Neither your entries nor your questions to the Professor are ever passed to advertisers.</li>
+    <li>Pro does not load ads.</li>
+  </ul>
+  <p>For Google's handling of data, see the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses information from sites or apps that use its services</a>.</p>
+
+  <h3>Health information</h3>
+  <p>Bowel records are health-related information. The app uses them only for logging, display and review on your device — never for advertising or disclosure to third parties. The app does not connect to Apple HealthKit. Nothing in the app is medical advice or a substitute for diagnosis or treatment.</p>
+
+  <h3>External links</h3>
+  <p>Links such as "Open the original source" on research cards open external sites in your browser. Those sites' own policies apply.</p>
+
+  <h3>Children's privacy</h3>
+  <p>The app is not directed at children under 13 and does not knowingly collect personal information from children.</p>
+
+  <h3>Your choices</h3>
+  <ul>
+    <li>Delete your log: Settings → "Delete all records", or delete the app</li>
+    <li>Change ad consent: Settings → "Ad privacy choices" (shown only where required)</li>
+    <li>Export your log: Settings → Export records → "Share CSV" (Pro)</li>
+  </ul>
+
+  <h3>Changes to this policy</h3>
+  <p>Changes will be posted on this page with an updated "Last updated" date.</p>
+
+  <h3>Contact</h3>
+  <p>Questions about this policy can be sent through the same contact form used for support.</p>
+  <a class="cta" href="https://docs.google.com/forms/d/e/1FAIpQLScWJMd7fVogErdmOV7sT0a3bYcG32_oTbLcS82iA59dsJfWkQ/viewform?usp=publish-editor" target="_blank" rel="noopener">Open the contact form</a>
+</section>
+
+</main>
+
+<footer class="foot">UNKO LAB — サポート・プライバシーポリシー / Support &amp; Privacy Policy</footer>
+
+<script>
+(function () {
+  var buttons = document.querySelectorAll('.lang button');
+  function show(lang) {
+    document.documentElement.lang = lang;
+    document.querySelectorAll('[data-ja]').forEach(function (el) { el.hidden = lang !== 'ja'; });
+    document.querySelectorAll('[data-en]').forEach(function (el) { el.hidden = lang !== 'en'; });
+    buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.lang === lang)); });
+    try { localStorage.setItem('lang', lang); } catch (e) {}
+  }
+  buttons.forEach(function (b) { b.addEventListener('click', function () { show(b.dataset.lang); }); });
+  var wanted = null;
+  try { wanted = localStorage.getItem('lang'); } catch (e) {}
+  if (!wanted) {
+    var hash = location.hash;
+    if (hash.slice(-3) === '-en') wanted = 'en';
+    else if (hash === '#support' || hash === '#privacy') wanted = 'ja';
+    else wanted = (navigator.language || '').toLowerCase().indexOf('ja') === 0 ? 'ja' : 'en';
+  }
+  show(wanted);
+  if (location.hash) { var t = document.querySelector(location.hash); if (t) t.scrollIntoView(); }
+})();
+</script>
+</body>
+</html>
